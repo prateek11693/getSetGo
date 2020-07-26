@@ -1,0 +1,88 @@
+/*===========================
+        Banner
+=============================*/
+
+.banner .main_cover {
+  background-image: url("../images/mycover.JPG");
+  height: 550px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.banner span {
+  display: block;
+  height: 20px;
+  background: white;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.memories_list h4 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+  margin: 20pn 0px;
+  color: black;
+}
+
+.memories_list {
+  box-sizing: border-box;
+  padding: 10px 30px;
+}
+
+.memories_list .memories_item {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  height: 550px;
+  width: 1000px;
+  background-size: cover !important;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.memories_list .memories_item div {
+  background: blueviolet;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+}
+.bg {
+  background-color: rgb(204, 209, 211);
+}
+
+.memory_image span {
+  width: 430px;
+  height: 230px;
+  display: block;
+  background-size: cover !important;
+  margin: 0 auto;
+}
+
+.memory_image h2 {
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.memory_list {
+  margin: 20px;
+}
+.memory_list > img {
+  float: left;
+  width: 40%;
+
+  margin: 50px;
+}
